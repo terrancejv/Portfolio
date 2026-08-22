@@ -1,334 +1,258 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Terrance Valdez | Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" href="data:," />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terrance Valdez — Software &amp; Care Operations</title>
+<meta name="description" content="Software, operations, and adult residential care. CS graduate and ARF administrator building practical tools for facility work.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">About</a></li>
-							<li><a href="#current">Current Work</a></li>
-							<li><a href="#projects">Projects</a></li>
-							<li><a href="#resume">Resume</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+<div class="noise" aria-hidden="true"></div>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<header class="topbar">
+  <a class="brand" href="#top">TV</a>
+  <nav>
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="resume-link" href="images/Terrance-Valdez-Portfolio-Resume.pdf" target="_blank">Resume</a>
+</header>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<p class="eyebrow">Software, operations, and adult residential care</p>
-							<h1>Terrance Valdez</h1>
-							<p>
-								I build practical software and documentation systems for adult residential care operations.
-								My current work combines assistant administration, direct resident support, Title 17 and
-								Title 22 compliance, and web/data tools that make facility work easier to run.
-							</p>
-							<ul class="actions">
-								<li><a href="#current" class="button scrolly">Current work</a></li>
-								<li><a href="#projects" class="button scrolly">Selected projects</a></li>
-							</ul>
-						</div>
-					</section>
+<main id="top">
 
-				<!-- Current Work -->
-					<section id="current" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Current Work</h2>
-							<p>
-								Current as of May 2026: I support multiple Adult Residential Facility homes across
-								administration, compliance documentation, resident records, staff training records, and
-								day-to-day resident-centered care.
-							</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-home"></span>
-									<h3>Assistant Administrator</h3>
-									<p class="role-meta">Melinda's Guest Home I &amp; II</p>
-									<p>
-										Support ARF administrative operations across licensing, program design,
-										self-certification, staff training, drills, resident documentation, consultant files,
-										and weekly/monthly compliance workflows.
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-clipboard-check"></span>
-									<h3>Assistant Administrator</h3>
-									<p class="role-meta">Cauntay Board &amp; Care Home</p>
-									<p>
-										Maintain organized facility records for residents, staff, meetings, incidents,
-										consultants, licensing, and quality/compliance. Create recurring documentation
-										systems that keep files audit-ready and easier to search.
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-user-friends"></span>
-									<h3>Direct Support Professional</h3>
-									<p class="role-meta">Park Ridge Adult Care Homes I &amp; II</p>
-									<p>
-										Provide resident support while also helping with operations across two licensed
-										adult residential facilities, including ongoing notes, IPP quarterly reports,
-										monthly staff meetings, SIR support, inspections, and administrator records.
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-laptop-code"></span>
-									<h3>Operations Software</h3>
-									<p class="role-meta">Internal tools and public web work</p>
-									<p>
-										Build tools for ARF market research, facility websites, document organization,
-										recurring admin workflows, and compliance tracking using Python, Streamlit,
-										FastAPI, Next.js, React, TypeScript, and Tailwind CSS.
-									</p>
-								</section>
-							</div>
-						</div>
-					</section>
+  <section class="hero">
+    <p class="eyebrow">Software, operations, and adult residential care</p>
+    <h1>Terrance Valdez</h1>
+    <p class="hero-lede">
+      I build practical software for the ARF/RCFE world I actually work in &mdash; facility
+      websites, market-research tools, and the compliance documentation systems that keep
+      care homes audit-ready. Computer Science, San Diego State &rsquo;24.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#projects">Selected projects</a>
+      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+    </div>
+  </section>
 
-				<!-- Projects -->
-					<section id="projects" class="wrapper style2 spotlights">
-						<section>
-							<div class="image spotlight-visual">
-								<span class="icon solid fa-map-marked-alt"></span>
-								<strong>ARF Atlas</strong>
-								<small>Facility supply, ZIP metrics, and expansion research</small>
-							</div>
-							<div class="content">
-								<div class="inner">
-									<h2>ARF Atlas</h2>
-									<p>
-										A Python data pipeline and dashboard for evaluating Adult Residential Facility
-										supply across the SARC service area. It cleans CDSS facility exports, geocodes
-										addresses, computes city and ZIP-level supply metrics, monitors official CDSS/DDS
-										sources, and produces shortlist views for future-home expansion research.
-									</p>
-									<ul class="tags">
-										<li>Python</li>
-										<li>Pandas</li>
-										<li>Streamlit</li>
-										<li>FastAPI</li>
-										<li>Geocoding</li>
-										<li>Data visualization</li>
-									</ul>
-									<ul class="actions">
-										<li><a href="https://github.com/terrancejv/ARF-Atlas" target="_blank" class="button">Code</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="image project-thumb">
-								<img src="images/reelstew-logo.png" alt="ReelStew logo" data-position="center center" />
-							</div>
-							<div class="content">
-								<div class="inner">
-									<h2>ReelStew</h2>
-									<p>
-										A local-first short-form video generator and product landing site. ReelStew runs
-										as a Flask and FFmpeg desktop-style app with offline/online modes, prompt/manual/chat
-										flows, local media libraries, Gemini script generation, Pexels/GIPHY integrations,
-										TTS, overlays, captions, SFX, YouTube helpers, and manifest-based updates.
-									</p>
-									<ul class="tags">
-										<li>Flask</li>
-										<li>FFmpeg</li>
-										<li>Python</li>
-										<li>Next.js</li>
-										<li>Stripe</li>
-										<li>Product design</li>
-									</ul>
-									<ul class="actions">
-										<li><a href="https://www.reelstew.com/" target="_blank" class="button">Try it out</a></li>
-										<li><a href="https://github.com/terrancejv/ReelStew-Tool" target="_blank" class="button">App code</a></li>
-										<li><a href="https://github.com/terrancejv/ReelStew-Website" target="_blank" class="button">Website code</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="image project-thumb">
-								<img src="images/park-ridge-carehome.png" alt="Park Ridge Adult Care Home exterior" data-position="center center" />
-							</div>
-							<div class="content">
-								<div class="inner">
-									<h2>Park Ridge Adult Care Homes Website</h2>
-									<p>
-										A public-facing care home website built with Next.js, React, TypeScript, Tailwind
-										CSS, Framer Motion, and Lucide icons. The site includes service pages, placement
-										and career information, contact flows, and a lightweight FAQ chatbot for families
-										and applicants.
-									</p>
-									<ul class="tags">
-										<li>Next.js</li>
-										<li>React</li>
-										<li>TypeScript</li>
-										<li>Tailwind CSS</li>
-										<li>UX writing</li>
-									</ul>
-									<ul class="actions">
-										<li><a href="https://parkridgeadultcarehomes.vercel.app/" target="_blank" class="button">Try it out</a></li>
-										<li><a href="https://github.com/terrancejv/Park-Ridge-Website" target="_blank" class="button">Code</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="image spotlight-visual">
-								<span class="icon solid fa-folder-open"></span>
-								<strong>Admin Workspace</strong>
-								<small>Compliance files, templates, trackers, and recurring workflows</small>
-							</div>
-							<div class="content">
-								<div class="inner">
-									<h2>ARF Admin Workspace</h2>
-									<p>
-										A structured operations system for facility records, resident notes, weekly
-										meeting logs, monthly staff training, drills, consultant records, SIR support,
-										IPP quarterly reports, expiring-item tracking, and Title 17/Title 22 inspection
-										readiness across multiple care homes.
-									</p>
-									<ul class="tags">
-										<li>Compliance documentation</li>
-										<li>Records management</li>
-										<li>Workflow design</li>
-										<li>Microsoft Word</li>
-										<li>Excel</li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<iframe class="image project-frame" src="https://www.youtube.com/embed/g28x6ZYyH3c?si=P7lm7hscLooUZjfv" title="SF Eats demo video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-							<div class="content">
-								<div class="inner">
-									<h2>SF Eats</h2>
-									<p>
-										A Google Maps-style search tool for San Francisco food trucks. Users can filter
-										by cuisine, food or drink, truck type, and search radius. Built with React,
-										Node.js, and the Mapbox API.
-									</p>
-									<ul class="actions">
-										<li><a href="https://foodtruck-finder.vercel.app/" target="_blank" class="button">Try it out</a></li>
-										<li><a href="https://github.com/terrancejv/foodtruck-finder/blob/main/README.md" target="_blank" class="button">Code</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+  <section id="work" class="section">
+    <div class="section-head">
+      <span class="section-index">01</span>
+      <h2>Current work</h2>
+    </div>
+    <p class="section-intro">As of May 2026 &mdash; supporting multiple Adult Residential Facility homes across administration, compliance documentation, resident records, staff training, and day-to-day resident-centered care.</p>
 
-				<!-- Resume -->
-					<section id="resume" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Resume &amp; Skills</h2>
-							<p>
-								My current skill set sits at the intersection of care operations, compliance systems,
-								and software development.
-							</p>
-							<div class="skills-grid">
-								<section>
-									<h3>Care Operations</h3>
-									<ul>
-										<li>Adult Residential Facility administration</li>
-										<li>Resident-centered support</li>
-										<li>IPP quarterly reporting</li>
-										<li>Special Incident Report support</li>
-										<li>Staff training documentation</li>
-									</ul>
-								</section>
-								<section>
-									<h3>Compliance &amp; Documentation</h3>
-									<ul>
-										<li>Title 17 and Title 22 readiness</li>
-										<li>CDSS Community Care Licensing records</li>
-										<li>HCBS documentation support</li>
-										<li>Inspection and audit preparation</li>
-										<li>Records organization and filing systems</li>
-									</ul>
-								</section>
-								<section>
-									<h3>Software &amp; Data</h3>
-									<ul>
-										<li>Python, Pandas, Streamlit, FastAPI</li>
-										<li>Next.js, React, TypeScript, Tailwind CSS</li>
-										<li>Data cleaning and geocoding</li>
-										<li>Dashboard and website development</li>
-										<li>Workflow automation and AI-assisted drafting</li>
-									</ul>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="images/Terrance-Valdez-Portfolio-Resume.pdf" target="_blank" class="button">View resume PDF</a></li>
-								<li><a href="https://docs.google.com/document/d/1AEYXsMVZppDdfcZx4VWk3J94d7i6_NOU/edit?usp=share_link&amp;ouid=104695297817954895744&amp;rtpof=true&amp;sd=true" target="_blank" class="button">Google Docs link</a></li>
-							</ul>
-						</div>
-					</section>
+    <div class="role-grid">
+      <article class="role-card">
+        <h3>Assistant Administrator</h3>
+        <p class="role-org">Melinda&rsquo;s Guest Home I &amp; II</p>
+        <p>Support ARF administrative operations across licensing, program design, self-certification, staff training, drills, resident documentation, consultant files, and weekly/monthly compliance workflows.</p>
+      </article>
+      <article class="role-card">
+        <h3>Assistant Administrator</h3>
+        <p class="role-org">Cauntay Board &amp; Care Home</p>
+        <p>Maintain organized facility records for residents, staff, meetings, incidents, consultants, licensing, and quality/compliance. Built recurring documentation systems that keep files audit-ready and easier to search.</p>
+      </article>
+      <article class="role-card">
+        <h3>Direct Support Professional</h3>
+        <p class="role-org">Park Ridge Adult Care Homes I &amp; II</p>
+        <p>Provide resident support while helping with operations across two licensed adult residential facilities &mdash; ongoing notes, IPP quarterly reports, monthly staff meetings, SIR support, inspections, and administrator records.</p>
+      </article>
+      <article class="role-card">
+        <h3>Operations Software</h3>
+        <p class="role-org">Internal tools &amp; public web work</p>
+        <p>Build tools for ARF market research, facility websites, document organization, and compliance tracking using Python, Streamlit, FastAPI, Next.js, React, TypeScript, and Tailwind CSS.</p>
+      </article>
+    </div>
+  </section>
 
-				<!-- Contact -->
-					<section id="contact" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Contact</h2>
-							<div class="split style1">
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Email</h3>
-											<a href="mailto:terrancejvaldez@gmail.com">terrancejvaldez@gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<a href="tel:+18317566564">(831) 756-6564</a>
-										</li>
-										<li>
-											<h3>Socials</h3>
-											<ul class="icons">
-												<li><a href="https://github.com/terrancejv" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/terrancejv/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+  <section id="projects" class="section">
+    <div class="section-head">
+      <span class="section-index">02</span>
+      <h2>Selected projects</h2>
+    </div>
 
-			</div>
+    <div class="project-list">
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Terrance Valdez. All rights reserved.</li>
-					</ul>
-				</div>
-			</footer>
+      <article class="project">
+        <div class="project-media project-media-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-5.686-7-11a7 7 0 0 1 14 0c0 5.314-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        </div>
+        <div class="project-body">
+          <div class="project-heading">
+            <h3>CareTerrain</h3>
+            <span class="project-meta">formerly ARF Atlas</span>
+          </div>
+          <p>A Python data pipeline and live map for evaluating Adult Residential Facility supply across California. Cleans CDSS facility exports, geocodes addresses, computes ZIP-level opportunity scores, tracks regulatory changes, and helps operators research where to open or expand.</p>
+          <ul class="tags">
+            <li>Python</li><li>FastAPI</li><li>Pandas</li><li>Streamlit</li><li>Geocoding</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://careterrain.com/?pane=map" target="_blank" rel="noopener">Live site &#8599;</a>
+            <a href="https://github.com/terrancejv/CareTerrain" target="_blank" rel="noopener">Code &#8599;</a>
+          </div>
+        </div>
+      </article>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+      <article class="project">
+        <div class="project-media">
+          <img src="images/park-ridge-carehome.png" alt="Park Ridge Adult Care Home exterior" loading="lazy">
+        </div>
+        <div class="project-body">
+          <div class="project-heading"><h3>Park Ridge Adult Care Homes</h3></div>
+          <p>Public-facing site for the licensed ARF I work at &mdash; service pages, placement and career info, contact flows, and a lightweight FAQ chatbot for families and applicants. License and regional-center numbers built in from day one.</p>
+          <ul class="tags">
+            <li>Next.js</li><li>React</li><li>TypeScript</li><li>Tailwind CSS</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://parkridgeadultcarehomes.vercel.app/" target="_blank" rel="noopener">Live site &#8599;</a>
+            <a href="https://github.com/terrancejv/Park-Ridge-Website" target="_blank" rel="noopener">Code &#8599;</a>
+          </div>
+        </div>
+      </article>
 
-	</body>
+      <article class="project">
+        <div class="project-media">
+          <img src="images/reelstew-logo.png" alt="ReelStew logo" loading="lazy" class="project-media-contain">
+        </div>
+        <div class="project-body">
+          <div class="project-heading"><h3>ReelStew</h3></div>
+          <p>A local-first short-form video generator with a product landing site. Runs as a Flask + FFmpeg desktop-style app with offline/online modes, prompt/manual/chat flows, Gemini script generation, Pexels/GIPHY integrations, TTS, captions, and manifest-based updates.</p>
+          <ul class="tags">
+            <li>Flask</li><li>FFmpeg</li><li>Python</li><li>Next.js</li><li>Stripe</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://www.reelstew.com/" target="_blank" rel="noopener">Try it &#8599;</a>
+            <a href="https://github.com/terrancejv/ReelStew-Tool" target="_blank" rel="noopener">App code &#8599;</a>
+            <a href="https://github.com/terrancejv/ReelStew-Website" target="_blank" rel="noopener">Site code &#8599;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-media project-media-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+        </div>
+        <div class="project-body">
+          <div class="project-heading"><h3>ARF Admin Workspace</h3></div>
+          <p>A structured operations system for facility records, resident notes, weekly meeting logs, monthly staff training, drills, consultant records, SIR support, IPP quarterly reports, expiring-item tracking, and Title 17/22 inspection readiness across multiple care homes.</p>
+          <ul class="tags">
+            <li>Compliance documentation</li><li>Records management</li><li>Workflow design</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-media">
+          <iframe src="https://www.youtube.com/embed/g28x6ZYyH3c?si=P7lm7hscLooUZjfv" title="SF Eats demo video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="project-body">
+          <div class="project-heading"><h3>SF Eats</h3></div>
+          <p>A Google Maps-style search tool for San Francisco food trucks &mdash; filter by cuisine, food or drink, truck type, and search radius.</p>
+          <ul class="tags">
+            <li>React</li><li>Node.js</li><li>Mapbox</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://foodtruck-finder.vercel.app/" target="_blank" rel="noopener">Try it &#8599;</a>
+            <a href="https://github.com/terrancejv/foodtruck-finder" target="_blank" rel="noopener">Code &#8599;</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="section-head">
+      <span class="section-index">03</span>
+      <h2>Where care operations meets software</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-col">
+        <h3>Care Operations</h3>
+        <ul>
+          <li>Adult Residential Facility administration</li>
+          <li>Resident-centered support</li>
+          <li>IPP quarterly reporting</li>
+          <li>Special Incident Report support</li>
+          <li>Staff training documentation</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Compliance &amp; Documentation</h3>
+        <ul>
+          <li>Title 17 &amp; Title 22 readiness</li>
+          <li>CDSS Community Care Licensing records</li>
+          <li>HCBS documentation support</li>
+          <li>Inspection &amp; audit preparation</li>
+          <li>Records organization &amp; filing systems</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Software &amp; Data</h3>
+        <ul>
+          <li>Python, Pandas, Streamlit, FastAPI</li>
+          <li>Next.js, React, TypeScript, Tailwind CSS</li>
+          <li>Data cleaning &amp; geocoding</li>
+          <li>Dashboard &amp; website development</li>
+          <li>Workflow automation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-contact">
+    <div class="section-head">
+      <span class="section-index">04</span>
+      <h2>Get in touch</h2>
+    </div>
+    <p class="section-intro">Open to conversations about ARF/RCFE software, facility websites, or anything in between.</p>
+    <div class="contact-grid">
+      <a class="contact-item" href="mailto:terrancejvaldez@gmail.com">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">terrancejvaldez@gmail.com</span>
+      </a>
+      <a class="contact-item" href="tel:+18317566564">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">(831) 756-6564</span>
+      </a>
+      <a class="contact-item" href="https://github.com/terrancejv" target="_blank" rel="noopener">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/terrancejv</span>
+      </a>
+      <a class="contact-item" href="https://www.linkedin.com/in/terrancejv/" target="_blank" rel="noopener">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/terrancejv</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Terrance Valdez. All rights reserved.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const revealEls = document.querySelectorAll('.role-card, .project, .skill-col, .contact-item');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach((el) => io.observe(el));
+</script>
+
+</body>
 </html>
